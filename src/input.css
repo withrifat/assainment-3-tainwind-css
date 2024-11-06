@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .tag{
+        @apply bg-[#5677AC26] uppercase text-black text-xs md:text-sm  px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer dark:text-white dark:bg-[#5677AC] ;
+    }
+} 

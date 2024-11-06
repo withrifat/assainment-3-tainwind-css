@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark scroll-smooth" id="htmlTag">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +41,7 @@
                     </a>
                 </span>
                 <button id="switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8  dark:stroke-white hover:scale-105 transition duration-300">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
                       </svg>
                 </button>
@@ -114,6 +114,62 @@
         <img src="img/logo.png" alt="Image 3" class="w-40 h-auto">
     </div>
 </section>
+<!-- learning section -->
+ <section class="py-5 bg-[#FAFAFA]">
+    <div class="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
+    <!-- larning tops section -->
+        <div>
+            <div class="shadow-2xl p-7 mb-14 lg:mb-0 lg:w-1/2">
+                <h2 class="my-10 border-b border-[#F9CCC7]">What you will learn</h2>                
+                <div>
+                    <div class="flex items-center gap-1 md:gap-3 ">
+                        <img src="img/right.png" alt="">
+                        <p class="text-5 font-sans ">Gain skills required to succeed in an entry-level IT job</p>
+                    </div>
+                    <div class="flex items-center gap-1 md:gap-3 ">
+                        <img src="img/right.png" alt="">
+                        <p class="text-5 font-sans "> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+                    </div>
+                    <div class="flex items-center gap-1 md:gap-3 ">
+                        <img src="img/right.png" alt="">
+                        <p class="text-5 font-sans ">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+                    </div>
+                    <div class="flex items-center gap-1 md:gap-3 ">
+                        <img src="img/right.png" alt="">
+                        <p class="text-5 font-sans ">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-2xl lg:w-1/2">
+                <img src="img/IT Support 1.png" alt="">
+                <h2 class="my-10 border-b border-[#F9CCC7]">What you will learn</h2>   
+                <div>
+                    <span class="debugging">Debuggin</span>
+                    <span class="customer-service">Customer Service</span>
+                    <span class="customer-support">Customer Support</span>
+                    <span class="dns">Domain Name System (DNS)</span>
+                    <span class="network-model">Network Model</span>
+                    <span class="linux">Linux</span>
+                    <span class="encryption-algorithms">Encryption Algorithms and Techniques</span>
+                    <span class="ipv4">Ipv4</span>
+                    <span class="tag">Troubleshooting</span>
+                    <span class="tag">Binary Code</span>
+                    <span class="tag">Cloud Computing</span>
+                </div>
+            </div>
+        </div>
+    <!-- about Jobs Assocaited with Certificate  -->
+        <div>
 
+        </div>
+     </div>
+ </section>
+     <!-- this is for internal js -->
+     <script>
+        const htmlTag = document.getElementById("htmlTag");
+        document.getElementById("switch").addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        });
+    </script>
 </body>
 </html>
