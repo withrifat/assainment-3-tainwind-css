@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+        inter: ['"Inter"', 'serif'], // Added Inter font here
       },
     },
   },
