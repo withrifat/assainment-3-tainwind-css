@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- this is nav section -->
-     <header class="">
+     <header class="bg-white dark:bg-[181C14]">
         <nav class="container mx-auto relative flex items-center justify-between sm:h-10 md:justify-center py-6 px-4 mt-2 ">
             <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div class="flex items-center justify-between w-full md:w-auto">
@@ -41,7 +41,7 @@
                     </a>
                 </span>
                 <button id="switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8  dark:stroke-white hover:scale-105 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8  dark:stroke-black hover:scale-105 transition duration-300">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
                       </svg>
                 </button>
@@ -240,14 +240,24 @@
   
 
   <!-- all course section -->
-   <section>
-    <div>
-        <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+   <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-2/3  sm:items-center items-start mx-auto">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight border-l">
             There are 5 Courses in this <br> Professional Certificate
         </h1>
-    </div>
-   </section>
+        <div class="flex">
+            <button class="border-solid border-[#F44335]  text-black px-10 py-5 text-xl uppercase tracking-widest hover:bg-slate-200 hover:text-black">
+                COURSE 1
+            </button>
+        </div>
 
+        
+
+
+      </div>
+    </div>
+  </section>
  
      <!-- this is for internal js -->
      <script>
